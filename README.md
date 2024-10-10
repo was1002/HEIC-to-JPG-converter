@@ -1,12 +1,12 @@
 # HEIC-to-JPG-converter
-This is a HEIC to JPG converter using Krita
+This is a HEIC to JPG batch converter using Krita. You can control the quality and avoid online converters.
 
 # What is this?
 
 This is a python script that you can run in Krita to convert multiple HEIC images (all in a folder) to JPG.
 It also has the possibility to filter based on creation date. That means, that it stores the latest creation
 date from the import, and next time when you use it, it will only convert the ones that were created later.
-If you don't want to use this, delete a part of the code, the TODO comments will help in that.
+If you don't want to use this, delete a part of the code, the TODO comments will help with that.
 
 # How to use?
 
