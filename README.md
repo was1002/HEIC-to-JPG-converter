@@ -21,4 +21,5 @@ If you don't want to use this, delete a part of the code, the TODO comments will
 The importDateLog.txt file contains the dates of the of the converted files that has the latest creation date
 from each import. After an import it appends the current latest date at the end of the list.
 (Note: creation date means here the creation or modification date of the file (which was earlier),
-not the creation date of the photo from exif)
+not the creation date of the photo from exif (this way it's not as reliable (because these may change),
+but adding packages (e.g. Pillow) to Krita seemed hard, and I didn't find a way to do it with the built-in ones))
